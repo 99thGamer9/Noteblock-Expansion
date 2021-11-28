@@ -29,6 +29,7 @@ public class NoteblockEarlyRisers implements Runnable {
 		adder.addEnum("WOODBLOCKS", () -> new Object[] { "woodblocks", NoteblockSounds.WOODBLOCKS });
 		adder.addEnum("PLUCK", () -> new Object[] { "pluck", NoteblockSounds.PLUCK });
 		adder.addEnum("CHINESE_PIK", () -> new Object[] { "chinese_pik", NoteblockSounds.CHINESE_PIK });
+		adder.addEnum("TRUMPET", () -> new Object[] { "trumpet", NoteblockSounds.TRUMPET });
 		adder.build();
 	}
 

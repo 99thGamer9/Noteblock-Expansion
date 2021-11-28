@@ -26,6 +26,7 @@ public class NoteblockSounds {
 	public static final SoundEvent WOODBLOCKS = add("noteblock.new.note.woodblocks");
 	public static final SoundEvent CHINESE_PIK = add("noteblock.new.note.chinese_pik");
 	public static final SoundEvent PLUCK = add("noteblock.new.note.pluck");
+	public static final SoundEvent TRUMPET = add("noteblock.new.note.trumpet");
 
 	private static SoundEvent add(String id) {
 		Identifier realId = NoteblockExpansion.id(id);

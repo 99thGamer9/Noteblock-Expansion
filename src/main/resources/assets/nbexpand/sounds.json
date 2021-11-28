@@ -73,5 +73,10 @@
 		"sounds": [
 			"nbexpand:noteblock/new/note/pluck"
 		]
+	},
+	"noteblock.new.note.trumpet": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/trumpet"
+		]
 	}
 }

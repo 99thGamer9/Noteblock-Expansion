@@ -45,6 +45,8 @@ public class InstrumentMixin {
 			ci.setReturnValue(Instrument.valueOf("CHINESE_PIK"));
 		} else if (state.isOf(Blocks.OBSIDIAN)) {
 			ci.setReturnValue(Instrument.valueOf("PLUCK"));
+		} else if (state.isOf(Blocks.HOPPER)) {
+			ci.setReturnValue(Instrument.valueOf("TRUMPET"));
 		}
 	}
 
