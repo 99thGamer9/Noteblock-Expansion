@@ -33,6 +33,9 @@ public class NoteblockEarlyRisers implements Runnable {
 		adder.addEnum("SAXOPHONE", () -> new Object[] { "saxophone", NoteblockSounds.SAXOPHONE });
 		adder.addEnum("ORGAN", () -> new Object[] { "organ", NoteblockSounds.ORGAN });
 		adder.addEnum("VIOLIN", () -> new Object[] { "violin", NoteblockSounds.VIOLIN });
+		adder.addEnum("CYMBAL", () -> new Object[] { "cymbal", NoteblockSounds.CYMBAL });
+		adder.addEnum("ELECTRIC_GUITAR", () -> new Object[] { "electric_guitar", NoteblockSounds.ELECTRIC_GUITAR });
+		adder.addEnum("CELLO", () -> new Object[] { "cello", NoteblockSounds.CELLO });
 		adder.build();
 	}
 

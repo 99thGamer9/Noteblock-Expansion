@@ -53,6 +53,12 @@ public class InstrumentMixin {
 			ci.setReturnValue(Instrument.valueOf("ORGAN"));
 		} else if (state.isOf(Blocks.COBWEB)) {
 			ci.setReturnValue(Instrument.valueOf("VIOLIN"));
+		} else if (state.isOf(Blocks.IRON_TRAPDOOR)) {
+			ci.setReturnValue(Instrument.valueOf("CYMBAL"));
+		} else if (state.isOf(Blocks.BLACKSTONE)) {
+			ci.setReturnValue(Instrument.valueOf("ELECTRIC_GUITAR"));
+		} else if (state.isOf(Blocks.SHROOMLIGHT)) {
+			ci.setReturnValue(Instrument.valueOf("CELLO"));
 		}
 	}
 

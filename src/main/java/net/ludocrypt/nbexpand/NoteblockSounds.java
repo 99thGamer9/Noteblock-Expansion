@@ -30,6 +30,9 @@ public class NoteblockSounds {
 	public static final SoundEvent SAXOPHONE = add("noteblock.new.note.saxophone");
 	public static final SoundEvent ORGAN = add("noteblock.new.note.organ");
 	public static final SoundEvent VIOLIN = add("noteblock.new.note.violin");
+	public static final SoundEvent CYMBAL = add("noteblock.new.note.cymbal");
+	public static final SoundEvent ELECTRIC_GUITAR = add("noteblock.new.note.electric_guitar");
+	public static final SoundEvent CELLO = add("noteblock.new.note.cello");
 	private static SoundEvent add(String id) {
 		Identifier realId = NoteblockExpansion.id(id);
 		SoundEvent S = new SoundEvent(realId);

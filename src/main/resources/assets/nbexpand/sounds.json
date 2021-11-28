@@ -93,5 +93,20 @@
 		"sounds": [
 			"nbexpand:noteblock/new/note/violin"
 		]
+	},
+	"noteblock.new.note.cymbal": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/cymbal"
+		]
+	},
+	"noteblock.new.note.electric_guitar": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/electric_guitar"
+		]
+	},
+	"noteblock.new.note.cello": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/cello"
+		]
 	}
 }
