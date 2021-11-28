@@ -45,6 +45,14 @@ public class InstrumentMixin {
 			ci.setReturnValue(Instrument.valueOf("CHINESE_PIK"));
 		} else if (state.isOf(Blocks.OBSIDIAN)) {
 			ci.setReturnValue(Instrument.valueOf("PLUCK"));
+		} else if (state.isOf(Blocks.HOPPER)) {
+			ci.setReturnValue(Instrument.valueOf("TRUMPET"));
+		} else if (state.isOf(Blocks.CAULDRON)) {
+			ci.setReturnValue(Instrument.valueOf("SAXOPHONE"));
+		} else if (state.isIn(BlockTags.WALLS)) {
+			ci.setReturnValue(Instrument.valueOf("ORGAN"));
+		} else if (state.isOf(Blocks.COBWEB)) {
+			ci.setReturnValue(Instrument.valueOf("VIOLIN"));
 		}
 	}
 

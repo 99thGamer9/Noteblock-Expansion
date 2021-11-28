@@ -73,5 +73,25 @@
 		"sounds": [
 			"nbexpand:noteblock/new/note/pluck"
 		]
+	},
+	"noteblock.new.note.trumpet": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/trumpet"
+		]
+	},
+	"noteblock.new.note.saxophone": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/saxophone"
+		]
+	},
+	"noteblock.new.note.organ": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/organ"
+		]
+	},
+	"noteblock.new.note.violin": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/violin"
+		]
 	}
 }
