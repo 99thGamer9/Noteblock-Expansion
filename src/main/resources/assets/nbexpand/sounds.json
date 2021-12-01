@@ -78,6 +78,8 @@
 		"sounds": [
 			"nbexpand:noteblock/new/note/trumpet"
 		]
+<<<<<<<<< Temporary merge branch 1
+=========
 	},
 	"noteblock.new.note.saxophone": {
 		"sounds": [
