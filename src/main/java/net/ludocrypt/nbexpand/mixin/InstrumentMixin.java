@@ -47,8 +47,6 @@ public class InstrumentMixin {
 			ci.setReturnValue(Instrument.valueOf("PLUCK"));
 		} else if (state.isOf(Blocks.HOPPER)) {
 			ci.setReturnValue(Instrument.valueOf("TRUMPET"));
-<<<<<<<<< Temporary merge branch 1
-=========
 		} else if (state.isOf(Blocks.CAULDRON)) {
 			ci.setReturnValue(Instrument.valueOf("SAXOPHONE"));
 		} else if (state.isIn(BlockTags.WALLS)) {

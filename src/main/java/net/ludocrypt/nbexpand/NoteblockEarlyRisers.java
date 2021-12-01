@@ -30,8 +30,6 @@ public class NoteblockEarlyRisers implements Runnable {
 		adder.addEnum("PLUCK", () -> new Object[] { "pluck", NoteblockSounds.PLUCK });
 		adder.addEnum("CHINESE_PIK", () -> new Object[] { "chinese_pik", NoteblockSounds.CHINESE_PIK });
 		adder.addEnum("TRUMPET", () -> new Object[] { "trumpet", NoteblockSounds.TRUMPET });
-<<<<<<<<< Temporary merge branch 1
-=========
 		adder.addEnum("SAXOPHONE", () -> new Object[] { "saxophone", NoteblockSounds.SAXOPHONE });
 		adder.addEnum("ORGAN", () -> new Object[] { "organ", NoteblockSounds.ORGAN });
 		adder.addEnum("VIOLIN", () -> new Object[] { "violin", NoteblockSounds.VIOLIN });

@@ -27,9 +27,6 @@ public class NoteblockSounds {
 	public static final SoundEvent CHINESE_PIK = add("noteblock.new.note.chinese_pik");
 	public static final SoundEvent PLUCK = add("noteblock.new.note.pluck");
 	public static final SoundEvent TRUMPET = add("noteblock.new.note.trumpet");
-<<<<<<<<< Temporary merge branch 1
-
-=========
 	public static final SoundEvent SAXOPHONE = add("noteblock.new.note.saxophone");
 	public static final SoundEvent ORGAN = add("noteblock.new.note.organ");
 	public static final SoundEvent VIOLIN = add("noteblock.new.note.violin");
